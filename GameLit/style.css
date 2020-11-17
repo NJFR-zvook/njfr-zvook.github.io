@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400&display=swap');
+
+body{
+    margin: 0;
+    padding-top: 85px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    height: 1500px;
+  }
+  
+  *{
+    box-sizing: border-box;
+  }
+  
+  h2{
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0 0 40px;
+    position: relative;
+  }
+  h2:after{
+    content: ' ';
+    display: block;
+    position: absolute;
+    width: 300px;
+    height: 4px;
+    background-color: #D2691E;
+    top: 50px;
+    left: 0;
+  }
+  
+  h3{
+    font-size: 24px;
+    font-weight: 400;
+    margin: 10px 0 20px;
+  }
+  
+  h4{
+      font-size: 18px;
+      font-weight: 700;
+  }
+  
+  p{
+    font-size: 18px;
+    line-height: 30px;
+  }
+  
+  section{
+    padding: 50px 0;
+      position: relative;
+  }
+  
+  .mainheader{
+    background-color: #8FBC8F;
+    padding: 15px 0;
+    padding-bottom: 0;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      left: 0;
+      z-index: 1;
+      height: 95px;
+  }
+  
+  .container{
+    width: 900px;
+    margin: auto;
+  }
+  
+  
+  main{
+    position: relative;
+    top: -1500px;
+  }
+  
+  .mainheader>.container{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  .mainnav>ul{
+      display: flex;
+      list-style: none;
+      width: 770px;
+      justify-content: space-between;
+      align-items: center;
+      font-weight: 700;
+  }
+  .mainnav>ul li{
+      font-size: 22px;
+      font-weight: 700;
+      color: #000;
+      text-decoration: none;
+      cursor: pointer;
+  }
+  .mainnav>ul li:hover{
+      text-decoration: underline;
+  }
+  .mainnav>ul li.active{
+      text-decoration: underline;
+      color: #D2691E;
+  }
+  
+  .mainnav>ul li img{
+      vertical-align: middle;
+      width: 20px;
+  }
+   
+  label{
+      font-size: 16px;
+      font-weight: 700;
+      display: block;
+      margin-bottom: 5px;
+  }
+  button{
+      background-color: #8FBC8F;
+      font-size: 16px;
+      font-weight: 700;
+      width: 360px;
+      padding: 10px 15px;
+      border-radius: 5px;
+      border: none;
+      cursor: pointer;
+  }
+  
+  
+  .order-wrapper{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  .order-alert{
+      width: 500px;
+      border-radius: 10px;
+      border: 1px solid black;
+      padding: 25px;
+  }
+  
+  .order-alert p{
+      margin: 0;
+  }
+  
+
+  footer {
+    box-sizing: border-box;
+    background-color: #8FBC8F;
+    padding: 20px 0;
+    position: relative;
+    top: -1400px;
+  }
+  footer p {
+    margin: 0;
+  }
+
+ #up {
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #111;
+    background-color:  #8FBC8F;
+    font-size: 25px;
+    bottom: 100px;
+    right: 100px;
+    border-radius:100%;
+    cursor: pointer;
+    transition: all 0.7s; 
+}
+.vis {
+    opacity: 1;
+}
+.unvis {
+  opacity: 0;
+}
+.line{
+  display: block;
+  height: 6px;
+  width: 0;
+  background-color: #D2691E;
+  margin-top: 21px;
+  transition: all 0.8s;
+}
+
+.visible{
+  opacity: 0;
+}
+.unvisible{
+  opacity: 1;
+}
+
+#a5{
+  margin-left: 40px;
+}
+.q{
+    height: 170%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: white;
+    opacity: 0.85;
+    position: absolute;
+}
+video{
+    height: auto;
+    width: 100%;
+    object-fit:cover;
+
+}
+
+#three .lenn{
+    width: 900px;
+    height: 3px;
+    background-color: black;
+    margin-bottom: 20px;
+}
+
+ #four a{
+  box-sizing: border-box;
+  width: 170px;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  border-radius: 10px;
+  border: black solid 3px;
+  color: black;
+  font-size: 30px;
+  text-decoration: none;
+  transition: all 0.3s;
+ }
+
+ #four a:hover{
+   border-radius: 0;
+   border: #D2691E solid 3px;
+   color: #D2691E;
+ }
+ #four h2{
+   margin-bottom: 50px;
+ }
